@@ -1,0 +1,151 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f2f2f2;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #e0e0e0;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .hero a {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .hero a:hover {
+    background-color: #028a58;
+  }
+  
+  /* Featured Images Section */
+  .featured-images {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .featured-images .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  .featured-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .featured-images img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Top Picks Section */
+  .top-picks {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+  }
+  
+  .top-picks h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #04AA6D;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
